@@ -418,10 +418,14 @@
           {tab === "percent" ? <PercentCalc /> : <ProfitCalc />}
 
           {/* Footer */}
-          <div style={{ marginTop:32, paddingBottom:8, textAlign:"center" }}>
-            <p style={{ color:"rgba(255,255,255,0.12)", fontSize:12, fontWeight:600, letterSpacing:"0.3px" }}>
-              تصميم وتطوير · محمد بخش
-            </p>
+          <div style={{ marginTop:32, paddingBottom:16, textAlign:"center" }}>
+            <div style={{ display:"inline-flex", alignItems:"center", gap:8, background:"rgba(255,255,255,0.05)", border:"1px solid rgba(255,255,255,0.09)", borderRadius:20, padding:"8px 18px" }}>
+              <span style={{ color:"rgba(255,255,255,0.2)", fontSize:13 }}>✦</span>
+              <p style={{ color:"rgba(255,255,255,0.45)", fontSize:13, fontWeight:700, letterSpacing:"0.4px", margin:0 }}>
+                تصميم وتطوير · محمد بخش
+              </p>
+              <span style={{ color:"rgba(255,255,255,0.2)", fontSize:13 }}>✦</span>
+            </div>
           </div>
         </div>
       );
